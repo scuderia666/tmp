@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Floorp
+GenericName=Web Browser
+Exec=/home/satou/programs/floorp/floorp %u
+Icon=floorp
+Terminal=false
+Type=Application
+StartupWMClass=Floorp
+MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;
+Categories=GTK;Network;WebBrowser;X-MandrivaLinux-Internet-WebBrowsers;
