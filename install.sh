@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASE_PACKAGES="git base-devel bind-utils net-tools nano lm_sensors wget curl xdg-user-dirs bsdtar dbus dbus-devel elogind alsa-tools alsa-utils mtpfs gvfs gvfs-mtp libconfig libconfig-devel mesa-vulkan-intel"
+BASE_PACKAGES="void-repo-nonfree git base-devel bind-utils net-tools nano lm_sensors wget curl xdg-user-dirs bsdtar dbus dbus-devel elogind alsa-tools alsa-utils mtpfs gvfs gvfs-mtp libconfig libconfig-devel mesa-vulkan-intel"
 DEV_PACKAGES="meson ninja cmake glib-devel"
 
 AWESOMEWM_DEPS="cairo-devel lgi libxcb-devel libxkbcommon-devel libxdg-basedir-devel gdk-pixbuf-devel xcb-util-cursor-devel xcb-util-keysyms-devel xcb-util-wm-devel xcb-util-xrm-devel"
