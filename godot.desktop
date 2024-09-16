@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Godot
+Comment=Application for making games
+Exec=/home/satou/programs/godot %U
+Icon=godot
+Terminal=false
+Type=Application
+Categories=Development;

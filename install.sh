@@ -29,10 +29,10 @@ install_awesomewm() {
 
 install_doas() {
 	xbps-install -S opendoas
-	echo "permit persist :wheel" > /etc/doas.conf
-	echo "permit nopass root" > /etc/doas.conf
-	echo "permit nopass :wheel cmd poweroff" > /etc/doas.conf
-	echo "permit nopass :wheel cmd reboot" > /etc/doas.conf
+	echo "permit persist :wheel" >> /etc/doas.conf
+	echo "permit nopass root" >> /etc/doas.conf
+	echo "permit nopass :wheel cmd poweroff" >> /etc/doas.conf
+	echo "permit nopass :wheel cmd reboot" >> /etc/doas.conf
 }
 
 install_libxnvctrl() {
