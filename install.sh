@@ -9,7 +9,7 @@ VLANG_DEPS="libXcursor-devel libXi-devel"
 FONTS="ttf-opensans unicode-emoji noto-fonts-emoji fonts-roboto-ttf font-material-design-icons-ttf"
 
 XORG="xorg-minimal xinput xorg-fonts noto-fonts-ttf libXrandr-devel"
-POST_INSTALL="ImageMagick NetworkManager network-manager-applet lightdm lxappearance parcellite rofi gamemode xtools"
+POST_INSTALL="ImageMagick NetworkManager network-manager-applet lightdm lxappearance parcellite rofi gamemode xtools xrdb"
 EXTRA_PACKAGES="ocs-url feh flatpak htop btop neofetch geany maim"
 
 install_awesomewm() {
